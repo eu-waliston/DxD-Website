@@ -1,0 +1,324 @@
+body::-webkit-scrollbar {
+    width: 11px;
+    background-color: #212529;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* NAVBAR  */
+.navbar-nav {
+    margin-left: 1120px;
+}
+
+.logo1 {
+    width: 95px;
+}
+
+a {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+a:hover {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+a::selection {
+    color: red !important;
+}
+
+/* inicio */
+#inicio {
+    background-image: url(assets/img/inicio.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7);
+
+}
+
+#logo1 {
+    width: 750px;
+    display: grid;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    z-index: 1;
+}
+
+#gifhy {
+    width: 50px;
+    position: relative;
+    top: 42%;
+    left: 50%;
+}
+
+/* sobre */
+#sobre {
+    background-color: #212529;
+    height: 100vh;
+}
+
+.sobreH1 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.logo2 {
+    width: 50px;
+}
+
+.sub-title {
+    color: #fff;
+    position: relative;
+    top: 10%;
+    text-align: center;
+}
+
+iframe {
+    position: relative;
+    left: 26%;
+    top: 12%;
+}
+
+/* personagens */
+
+.PH1 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#personagens {
+    background-color: #212529;
+    height: 150vh;
+}
+
+
+.card {
+    perspective: 150rem;
+    position: relative;
+    height: 20rem;
+    max-width: 400px;
+    margin: 2rem;
+    box-shadow: none;
+    background: none;
+    border: none !important;
+}
+  
+.card-side {
+    height: 25rem;
+    border-radius: 15px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding:2rem;
+    color: white
+}
+  
+.card-side.back {
+    transform: rotateY(-180deg);
+    background-color: #ec3d31a8;
+}
+  
+.rias {
+    background-image: url(assets/img/Rias\ Gremory.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.koneko {
+    background-image: url(assets/img/Tojou\ Koneko.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.asia {
+    background-image: url(assets/img/Asia\ Argento.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.akeno {
+    background-image: url(assets/img/Himejima\ Akeno.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+.kiba {
+    background-image: url(assets/img/Kiba\ Yuuto.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+.issei {
+    background-image: url(assets/img/Hyoudou\ Issei.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+  
+.card:hover .card-side.front {
+    transform: rotateY(180deg);
+}
+  
+.card:hover .card-side.back {
+    transform: rotateY(0deg);
+}
+
+
+.card-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #212529;
+}
+span {
+    color: #212529;
+    font-weight: bold;
+}
+
+
+#card-grid-container-rias {
+    margin-top: 12% !important;
+    margin-left: 12%;
+}
+
+#card-grid-container-koneko {
+    margin-left: 38%;
+    margin-top: -23%;
+}
+
+#card-grid-container-asia {
+    margin-left: 64%;
+    margin-top: -23%;
+}
+
+#card-grid-container-akeno {
+    margin-left: 12%;
+    margin-top: 8%; 
+}
+
+#card-grid-container-kiba {
+    margin-left: 38%;
+    margin-top: -23%;
+}
+
+#card-grid-container-issei {
+    margin-left: 64%;
+    margin-top: -23%;   
+}
+
+/* extras */
+#extras {
+    background-color: #212529;
+    height: 100vh;
+}
+
+.extraP {
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+
+.extrasP {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 21%;
+    margin-top: 5%;
+}
+
+.linkss{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.fundo-rs {
+    width: 260px;
+    margin-left: 80%;
+    margin-top: -30%;
+}
+
+/* footer */
+
+.footer {
+    background-color: #000;
+    height: 10vh;
+}
+
+h2 {
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    top: 39%;
+    margin-left: 38%;
+}
+
+.icons {
+    margin-left: 45%;
+    margin-top: -3px;
+}
+
+svg {
+    color:#fff;
+    margin-left: 10px;
+}
+
+/* media querie */
+
+@media(max-width: 1500px) {
+    .navbar-nav {
+        margin-left: 850px;
+    }
+
+    #logo1 {
+        width: 650px;
+        top: 30%;
+    }
+
+    #gifhy {
+        top: 55%;
+    }
+
+    iframe {
+        left: 22%;
+        top: 20%;
+    }
+
+   .extraP {
+    margin-top: 10%;
+   }
+
+   .fundo-rs {
+       display: none;
+   }
+
+   h2 {
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    top: 35%;
+    margin-left: 37%;
+    }
+
+    svg {
+        width: 20px;
+    }
+
+ 
+}
