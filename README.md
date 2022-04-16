@@ -3,4 +3,4 @@ Site Desenvolvido com HTML, CSS, JS e BOOTSTRAP  o mesmo consiste em uma pagina 
 
 Link da aplicação
 
-dxdwebfan.netlify.app
+https://dxdwebfan.netlify.app
